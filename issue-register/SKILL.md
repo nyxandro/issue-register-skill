@@ -8,9 +8,10 @@ description: >
   document is still current or already stale, what is left open in it, to clean it out and
   rewrite what remains, to merge several overlapping registers into one, or to add a found bug
   as an item: "is this document outdated or current", "what's left open here", "clean it out
-  and write down what still needs doing", "merge these two files into one", "add this bug to
-  the register as an item", "what's left in the issues and what's closed". The owner may phrase
-  this in another language; match on meaning.
+  and write down what still needs doing", "bring this document up to date", "update this md
+  file: what's done, what's left, what came up", "merge these two files into one", "add this
+  bug to the register as an item", "what's left in the issues and what's closed". The owner
+  may phrase this in another language; match on meaning.
 ---
 
 # Register of open problems
