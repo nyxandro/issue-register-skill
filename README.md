@@ -1,11 +1,11 @@
 # Issue Register Skill
 
-[![Download Skill](https://img.shields.io/badge/Download-issue--register.skill-blue?style=for-the-badge)](https://github.com/nyxandro/issue-register-skill/raw/main/dist/issue-register.skill)
+[![Download Issue Register Skill](https://img.shields.io/badge/Download-issue--register.skill-blue?style=for-the-badge)](https://github.com/nyxandro/issue-register-skill/raw/main/dist/issue-register.skill)
 
-A skill for Claude Code and OpenCode: revise a project's register of open problems (defects,
-technical debt, open questions, owner decisions) against the current state of the code, the
-tests and the servers. Cut what is closed, keep only what remains, separate items by type of
-work, order them by product impact, word every item as a task, report.
+An issue register skill for Claude Code and OpenCode: revise a project's register of open
+problems (defects, technical debt, open questions, owner decisions) against the current state of
+the code, the tests and the servers. Cut what is closed, keep only what remains, separate items
+by type of work, order them by product impact, word every item as a task, report.
 
 Every project with an agent ends up with a document of open problems, and every long session
 breaks it the same way: the agent appends instead of rewriting, marks items "done" instead of
@@ -43,6 +43,17 @@ priority order with its kind; which items wait for the owner's decision and what
 what could not be verified and why.
 
 ## Install
+
+**Claude Code, as a plugin**, from [nyxandro/skills](https://github.com/nyxandro/skills), the
+catalog of my skills:
+
+```text
+/plugin install issue-register --marketplace nyxandro/skills
+```
+
+Use one way or the other: with both, Claude Code loads the skill twice.
+
+**Any agent, as a skill folder:**
 
 Download `dist/issue-register.skill` (the badge above) and unpack it into the skills folder of
 your agent, or clone this repository and link the `issue-register/` folder there. The skill is
