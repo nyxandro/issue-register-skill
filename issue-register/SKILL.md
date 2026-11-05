@@ -1,10 +1,9 @@
 ---
 name: issue-register
 description: >
-  Revise a project's register of open problems (defects, technical debt, open questions, owner
-  decisions) against the current state of the code, the tests and the servers: cut what is
-  closed, keep only what remains, separate items by type of work, order them by product impact,
-  word every item as a task, and report. Always use it when the owner asks whether a problems
+  Keeps a project's register of open problems (defects, technical debt, open questions, owner
+  decisions) true to the current code, tests and servers, as one file that holds only what is
+  left to do. Always use it when the owner asks whether a problems
   document is still current or already stale, what is left open in it, to clean it out and
   rewrite what remains, to merge several overlapping registers into one, or to add a found bug
   as an item: "is this document outdated or current", "what's left open here", "clean it out
@@ -13,7 +12,7 @@ description: >
   bug to the register as an item", "what's left in the issues and what's closed". The owner
   may phrase this in another language; match on meaning.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Register of open problems
