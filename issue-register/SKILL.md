@@ -12,6 +12,8 @@ description: >
   file: what's done, what's left, what came up", "merge these two files into one", "add this
   bug to the register as an item", "what's left in the issues and what's closed". The owner
   may phrase this in another language; match on meaning.
+metadata:
+  version: "1.0.0"
 ---
 
 # Register of open problems
